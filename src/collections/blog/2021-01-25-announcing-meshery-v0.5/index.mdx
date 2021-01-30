@@ -1,0 +1,62 @@
+---
+title: "Announcing Meshery v0.5.0"
+subtitle: ""
+date: 2021-01-25 08:00:00 +0000
+author: Aisuko Li
+thumbnail: ./meshery.png
+category: Announcements
+tags:
+ - Meshery
+ - Projects
+ - News
+published: true
+redirect_from:
+ - /blog/meshery/announcing-meshery-v0.5.0/
+---
+
+import { BlogWrapper } from "../Blog.style.js";
+import operator from "./meshery-operator-dark.svg";
+
+<BlogWrapper>
+
+<p style="color:#3c494f;text-align:center;">Thanks to our open source contributors</p>
+
+We're pleased to announce the realease of Meshery 0.5.0, our first release of 2021! This realease consists of number of significant architectural enhancements and 8 new capabilities are entering alpha.
+
+The 0.5.0 release cycle will good begin for 2021 release cycle, this is one of the most feature dense releases in a while:the Meshery innovation
+cycle is still trending upward. This release has many new capabilities,showing that there is still much to explore in the open service mesh ecosystem.
+
+
+## Major themes
+
+The two new adapters with the latest version of Meshery released
+
+* Meshery Adapter for  <a href="https://github.com/layer5io/meshery-traefik-mesh">Traefik Mesh (beta)</a>
+* Meshery Adapter for <a href="https://github.com/layer5io/meshery-nginx-sm">NGINX SM Mesh (beta)</a>
+
+* Dynamic injection of Remote Provider extensions
+  * Need more information
+
+
+### MeshSync
+
+* MeshSync one of a family of custom controllers within Meshery Operator.
+* We released it to a new project, welcome to contribute <a href="https://github.com/layer5io/meshsync">MeshSync</a>
+
+
+### Meshery Operator
+<img src={operator} class="image-right" alt="meshery-operator-dark" />
+
+ * We add new broker to meshery-operator <a href="https://github.com/layer5io/meshery-operator/pull/97">PR #97</a>
+ * We split the source code of MeshSync from Meshery Operator  <a href="https://github.com/layer5io/meshery-operator/issues/88"> issue #88</a>
+
+
+### Other notable changes
+
+To get a more comprehensive list of the bug fixes and enhancements packaged in the v0.5.0 release, see the [Meshery Documentation](https://meshery.layer5.io/docs/project/releases)
+
+\- [Aisuko Li](https://www.linkedin.com/in/bowen-li-10101197/)
+
+_**P.S.: If these topics excite you and you want to explore the beautiful realm of service meshes, come and say "Hi" on our [Slack Channel](http://slack.layer5.io) and one of us will reach out to you!**_
+
+</BlogWrapper>
